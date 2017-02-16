@@ -1,5 +1,7 @@
 package cn.libery.designpatterns;
 
+import android.app.Dialog;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
