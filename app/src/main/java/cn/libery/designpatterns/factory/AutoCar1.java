@@ -1,7 +1,5 @@
 package cn.libery.designpatterns.factory;
 
-import cn.libery.designpatterns.factory.AutoCar;
-
 /**
  * Created by ibery on 2017/2/19.
  */

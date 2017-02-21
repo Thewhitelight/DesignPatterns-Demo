@@ -8,11 +8,6 @@ import cn.libery.designpatterns.factory.AutoCar2;
 import cn.libery.designpatterns.factory.AutoCarFactory;
 import cn.libery.designpatterns.factory.CarFactory;
 
-/**
- * Example local unit test, which will execute on the development machine (host).
- *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
- */
 public class FactoryUnitTest {
 
     @Test
