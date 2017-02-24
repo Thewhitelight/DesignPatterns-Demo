@@ -2,10 +2,10 @@ package cn.libery.designpatterns;
 
 import org.junit.Test;
 
-import cn.libery.designpatterns.Iterator.Boss;
-import cn.libery.designpatterns.Iterator.Director;
-import cn.libery.designpatterns.Iterator.GroupLeader;
-import cn.libery.designpatterns.Iterator.Manager;
+import cn.libery.designpatterns.iterator.Boss;
+import cn.libery.designpatterns.iterator.Director;
+import cn.libery.designpatterns.iterator.GroupLeader;
+import cn.libery.designpatterns.iterator.Manager;
 
 public class IteratorUnitTest {
 

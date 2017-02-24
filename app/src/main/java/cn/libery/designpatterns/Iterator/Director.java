@@ -1,4 +1,4 @@
-package cn.libery.designpatterns.Iterator;
+package cn.libery.designpatterns.iterator;
 
 /**
  * Created by ibery on 2017/2/23.
