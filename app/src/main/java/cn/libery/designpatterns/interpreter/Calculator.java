@@ -21,6 +21,11 @@ public class Calculator {
                     exp2 = new NumExpression(Integer.valueOf(elements[++i]));
                     mStack.push(new AdditionExpression(exp1, exp2));
                     break;
+                case '-':
+                    exp1 = mStack.pop();
+                    exp2 = new NumExpression(Integer.valueOf(elements[++i]));
+                    mStack.push(new SubtractExpression(exp1, exp2));
+                    break;
                 default:
                     mStack.push(new NumExpression(Integer.valueOf(elements[i])));
                     break;
