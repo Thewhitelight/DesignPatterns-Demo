@@ -6,7 +6,7 @@ package cn.libery.designpatterns.command;
 
 public class Buttons {
     private LeftCommand leftCommand;
-    private cn.libery.designpatterns.command.rightCommand rightCommand;
+    private RightCommand rightCommand;
     private FastToBottomCommand fastToBottomCommand;
     private TransformCommand transformCommand;
 
@@ -14,7 +14,7 @@ public class Buttons {
         this.leftCommand = leftCommand;
     }
 
-    public void setRightCommand(cn.libery.designpatterns.command.rightCommand rightCommand) {
+    public void setRightCommand(RightCommand rightCommand) {
         this.rightCommand = rightCommand;
     }
 

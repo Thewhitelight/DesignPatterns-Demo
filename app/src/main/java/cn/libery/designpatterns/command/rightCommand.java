@@ -4,9 +4,9 @@ package cn.libery.designpatterns.command;
  * Created by ibery on 2017/2/26.
  */
 
-public class rightCommand implements Command {
+public class RightCommand implements Command {
 
-    public rightCommand(TetrisMachine machine) {
+    public RightCommand(TetrisMachine machine) {
         this.machine = machine;
     }
 
