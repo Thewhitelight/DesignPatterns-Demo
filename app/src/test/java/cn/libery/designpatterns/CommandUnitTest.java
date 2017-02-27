@@ -5,13 +5,14 @@ import org.junit.Test;
 import cn.libery.designpatterns.command.Buttons;
 import cn.libery.designpatterns.command.FastToBottomCommand;
 import cn.libery.designpatterns.command.LeftCommand;
+import cn.libery.designpatterns.command.RightCommand;
 import cn.libery.designpatterns.command.TetrisMachine;
 import cn.libery.designpatterns.command.TransformCommand;
 
 public class CommandUnitTest {
 
     @Test
-    public void factoryTest() throws Exception {
+    public void commandTest() throws Exception {
 
         TetrisMachine machine = new TetrisMachine();
         LeftCommand leftCommand = new LeftCommand(machine);
