@@ -2,11 +2,11 @@ package cn.libery.designpatterns;
 
 import org.junit.Test;
 
-import cn.libery.designpatterns.Mediator.BoardMediator;
-import cn.libery.designpatterns.Mediator.CDDevice;
-import cn.libery.designpatterns.Mediator.CPU;
-import cn.libery.designpatterns.Mediator.GPU;
-import cn.libery.designpatterns.Mediator.SoundCard;
+import cn.libery.designpatterns.mediator.BoardMediator;
+import cn.libery.designpatterns.mediator.CDDevice;
+import cn.libery.designpatterns.mediator.CPU;
+import cn.libery.designpatterns.mediator.GPU;
+import cn.libery.designpatterns.mediator.SoundCard;
 
 public class MediatorUnitTest {
 

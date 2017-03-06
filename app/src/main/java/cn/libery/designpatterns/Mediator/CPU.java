@@ -1,4 +1,4 @@
-package cn.libery.designpatterns.Mediator;
+package cn.libery.designpatterns.mediator;
 
 import android.support.annotation.Size;
 

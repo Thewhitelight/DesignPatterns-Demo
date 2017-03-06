@@ -1,4 +1,4 @@
-package cn.libery.designpatterns.Mediator;
+package cn.libery.designpatterns.mediator;
 
 /**
  * Created by ibery on 2017/3/5.
